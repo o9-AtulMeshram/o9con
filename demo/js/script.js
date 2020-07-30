@@ -1,5 +1,7 @@
 
 function fillIcons() {
+  var gridNewIcons = document.querySelector('.icons-new-icons');
+  var gridNewAlias = document.querySelector('.icons-alias-new');
   var gridDirectional = document.querySelector('.icons-directional');
   var gridUI = document.querySelector('.icons-ui');
   var gridEditor = document.querySelector('.icons-editor');
@@ -12,6 +14,8 @@ function fillIcons() {
   var gridCurrency = document.querySelector('.icons-currency');
   var gridAccessibility = document.querySelector('.icons-accessibility');
 
+  gridNewIcons.innerHTML = '';
+  gridNewAlias.innerHTML = '';
   gridDirectional.innerHTML = '';
   gridUI.innerHTML = '';
   gridEditor.innerHTML = '';
@@ -24,6 +28,8 @@ function fillIcons() {
   gridCurrency.innerHTML = '';
   gridAccessibility.innerHTML = '';
 
+  gridNewIcons.innerHTML = '<ul class="products">' + getIcons(new_icons) + '<ul>';
+  gridNewAlias.innerHTML = '<ul class="products">' + getIcons(new_alias) + '<ul>';
   gridDirectional.innerHTML = '<ul class="products">' + getIcons(directional) + '<ul>';
   gridUI.innerHTML = '<ul class="products">' + getIcons(ui) + '<ul>';
   gridEditor.innerHTML = '<ul class="products">' + getIcons(editor) + '<ul>';
@@ -1756,4 +1762,61 @@ var accessibility = [
   "volume-control-phone",
   "wheelchair",
   "wheelchair-alt"
+]
+
+var new_alias = [
+  "bitcoin",
+  "feed",
+  "genderless",
+  "intersex",
+  "mars",
+  "mortar-board",
+  "navicon",
+  "reorder",
+  "rmb",
+  "rouble",
+  "ruble",
+  "rupee",
+  "server",
+  "shekel",
+  "sheqel",
+  "soccer-ball-o",
+  "sort-asc",
+  "sort-desc",
+  "sort-down",
+  "sort-up",
+  "tachometer",
+  "university",
+  "unlock",
+  "unlock-alt",
+  "unsorted",
+  "usd",
+  "user-md",
+  "venus",
+  "volume-off",
+  "yen"
+]
+
+var new_icons = [
+  "airport-tower",
+  "control-tower",
+  "control-room",
+  "legal",
+  "mars-double",
+  "mars-stroke",
+  "mars-stroke-h",
+  "mars-stroke-v",
+  "mercury",
+  "neuter",
+  "no-video",
+  "paw",
+  "spoon",
+  "th-list",
+  "transgender",
+  "transgender-alt",
+  "tree",
+  "user-secret",
+  "venus-double",
+  "venus-mars",
+  "video-camera",
 ]

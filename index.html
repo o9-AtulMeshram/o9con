@@ -250,6 +250,20 @@
       </code>
 
       <div class="sub-header">
+        <h1 class="toggler toggler-new-icons">New Icons</h1>
+      </div>
+
+      <div class="icons-new-icons">
+      </div>
+
+      <div class="sub-header">
+        <h1 class="toggler toggler-alias-new">New Alias</h1>
+      </div>
+
+      <div class="icons-alias-new">
+      </div>
+
+      <div class="sub-header">
         <h1 class="toggler toggler-directional">Directional Icons</h1>
       </div>
 
@@ -347,6 +361,12 @@
 
   <script>
 
+    $('.toggler-new-icons').click(function () {
+      $('.icons-new-icons').slideToggle("slow");
+    });
+    $('.toggler-alias-new').click(function () {
+      $('.icons-alias-new').slideToggle("slow");
+    });
     $('.toggler-directional').click(function () {
       $('.icons-directional').slideToggle("slow");
     });

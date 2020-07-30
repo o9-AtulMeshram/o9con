@@ -3806,6 +3806,90 @@ Date: 11-MAY-2020
   content: "\ed0a";
 }
 
+.o9con-mars-double::before {
+  content: "\ed0b";
+}
+
+.o9con-mercury::before {
+  content: "\ed0c";
+}
+
+.o9con-neuter::before {
+  content: "\ed0d";
+}
+
+.o9con-transgender-alt::before {
+  content: "\ed0e";
+}
+
+.o9con-transgender::before {
+  content: "\ed0f";
+}
+
+.o9con-venus-double::before {
+  content: "\ed10";
+}
+
+.o9con-venus-mars::before {
+  content: "\ed11";
+}
+
+.o9con-mars-stroke::before {
+  content: "\ed12";
+}
+
+.o9con-mars-stroke-v::before {
+  content: "\ed13";
+}
+
+.o9con-mars-stroke-h::before {
+  content: "\ed14";
+}
+
+.o9con-legal::before {
+  content: "\ed15";
+}
+
+.o9con-no-video::before {
+  content: "\ed16";
+}
+
+.o9con-paw::before {
+  content: "\ed17";
+}
+
+.o9con-spoon::before {
+  content: "\ed18";
+}
+
+.o9con-th-list::before {
+  content: "\ed19";
+}
+
+.o9con-tree::before {
+  content: "\ed1a";
+}
+
+.o9con-user-secret::before {
+  content: "\ed1b";
+}
+
+.o9con-video-camera::before {
+  content: "\ed1c";
+}
+
+.o9con-control-room::before {
+  content: "\ed1d";
+}
+
+.o9con-control-tower::before {
+  content: "\ed1e";
+}
+
+.o9con-airport-tower::before {
+  content: "\ed1f";
+}
+
 .o9con-edit::before {
   content: "\eb38";
 }
@@ -4061,3 +4145,125 @@ Date: 11-MAY-2020
 .o9con-search-minus::before {
   content: "\eaad";
 }
+
+.o9con-bitcoin::before {
+  content: "\ecc7";
+}
+
+.o9con-feed::before {
+  content: "\eb84";
+}
+
+.o9con-genderless::before {
+  content: "\ec1e";
+}
+
+.o9con-intersex::before {
+  content: "\ed0f";
+}
+
+.o9con-mars::before {
+  content: "\eba3";
+}
+
+.o9con-mortar-board::before {
+  content: "\ebb1";
+}
+
+.o9con-navicon::before {
+  content: "\ea85";
+}
+
+.o9con-reorder::before {
+  content: "\ea85";
+}
+
+.o9con-rmb::before {
+  content: "\ebcb";
+}
+
+.o9con-rouble::before {
+  content: "\ecf0";
+}
+
+.o9con-ruble::before {
+  content: "\ecf0";
+}
+
+.o9con-rupee::before {
+  content: "\ebac";
+}
+
+.o9con-server::before {
+  content: "\eb7d";
+}
+
+.o9con-shekel::before {
+  content: "\ecf9";
+}
+
+.o9con-sheqel::before {
+  content: "\ecf9";
+}
+
+.o9con-soccer-ball-o::before {
+  content: "\ec84";
+}
+
+.o9con-sort-asc::before {
+  content: "\ea17";
+}
+
+.o9con-sort-desc::before {
+  content: "\ea22";
+}
+
+.o9con-sort-down::before {
+  content: "\ea22";
+}
+
+.o9con-sort-up::before {
+  content: "\ea17";
+}
+
+.o9con-tachometer::before {
+  content: "\ebca";
+}
+
+.o9con-university::before {
+  content: "\ec73";
+}
+
+.o9con-unlock::before {
+  content: "\eb3e";
+}
+
+.o9con-unlock-alt::before {
+  content: "\eb3f";
+}
+
+.o9con-unsorted::before {
+  content: "\ea1e";
+}
+
+.o9con-usd::before {
+  content: "\ebc3";
+}
+
+.o9con-user-md::before {
+  content: "\ecd1";
+}
+
+.o9con-venus::before {
+  content: "\ebbd";
+}
+
+.o9con-volume-off::before {
+  content: "\ebec";
+}
+
+.o9con-yen::before {
+  content: "\ebcb";
+}
+
+/*# sourceMappingURL=style-o9.css.map */
