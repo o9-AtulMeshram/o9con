@@ -889,7 +889,9 @@ var allName = [
   "window-restore",
   "wrench",
   "zoom-in",
-  "zoom-out"
+  "zoom-out",
+  "legend",
+  "edge"
 ]
 
 var directional = [
@@ -1798,6 +1800,8 @@ var new_alias = [
 ]
 
 var new_icons = [
+  "legend",
+  "edge",
   "airport-tower",
   "control-tower",
   "control-room",

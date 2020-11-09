@@ -9,8 +9,8 @@
 }
 
 body {
-  background: #FFFFFF;
-  color: #333333;
+  background: #000000;
+  color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   margin: 0;
@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color: #4285F4;
+  color: #4285f4;
   text-decoration: none;
 }
 
@@ -33,14 +33,14 @@ header {
   padding: 80px 0px 50px 0px;
   margin-bottom: 0px;
   background-color: transparent;
-  color: #FFFFFF;
+  color: #ffffff;
   overflow-x: hidden;
 }
 
 header div {
   display: block;
   background-image: url("../img/bg.svg");
-  background-color: #2864FF;
+  background-color: #2864ff;
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -86,7 +86,7 @@ header p {
 }
 
 header a {
-  color: #FCB305;
+  color: #fcb305;
 }
 
 header a:hover {
@@ -110,13 +110,15 @@ ul li {
 }
 
 ul li:hover {
-  background: rgba(40, 100, 255, 0.1);
+  background: rgba(40, 100, 255, 0.2);
 }
 
-ul p, ul em, ul input {
+ul p,
+ul em,
+ul input {
   display: block;
   font-size: 1.1rem;
-  color: rgba(0, 0, 0, 0.6);
+  color: white;
   -webkit-user-select: auto;
   -moz-user-select: auto;
   -ms-user-select: auto;
@@ -129,23 +131,25 @@ ul p, ul em, ul input {
 }
 
 ul i {
-  color: #222222;
+  color: #2864ff;
 }
 
 ul p {
-  color: #333333;
+  color: #ffffff;
   padding: 8px 0;
   font-size: 0.9rem;
   line-height: 1rem;
 }
 
-ul p::selection, ul em::selection {
-  background: #2864FF;
+ul p::selection,
+ul em::selection {
+  background: #2864ff;
   color: #fff;
 }
 
-ul p::-moz-selection, ul em::-moz-selection {
-  background: #2864FF;
+ul p::-moz-selection,
+ul em::-moz-selection {
+  background: #2864ff;
   color: #fff;
 }
 
@@ -181,15 +185,15 @@ ul input {
   align-items: center;
   justify-content: center;
   margin: 40px 0 40px 0;
-  border-top: 1px solid #2864FF;
+  border-top: 1px solid #2864ff;
 }
 
 .sub-header > h1 {
-  background-color: #2864FF;
+  background-color: #2864ff;
   text-align: center;
   font-size: 1rem;
   line-height: 1.1rem;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 18rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
   margin: 0 auto;
@@ -204,8 +208,8 @@ ul input {
 }
 
 .toggler:hover {
-  background-color: rgba(40, 100, 255, 0.25);
-  color: #2864FF;
+  background-color: rgba(40, 100, 255, 0.5);
+  color: #2864ff;
 }
 
 .new-section-tags {
@@ -217,7 +221,7 @@ ul input {
 
 .new-section-tags > p {
   font-family: "Inconsolata", monospace;
-  background-color: #FCB305;
+  background-color: #fcb305;
   border-radius: 0.25em;
   user-select: all;
   text-align: center;
@@ -258,7 +262,7 @@ ul input {
   text-align: center;
   font-size: 1rem;
   line-height: 0.9rem;
-  color: #2864FF;
+  color: #2864ff;
   width: auto;
   padding: 0.5rem 1rem 0.5rem 1rem;
   margin: 0 auto;
@@ -270,8 +274,8 @@ ul input {
 
 .new-section-tags-primary {
   font-weight: 600;
-  color: #222222;
-  border: solid 1px #222222;
+  color: #000000;
+  border: solid 1px #000000;
 }
 
 .new-section-16 > ul > li {
@@ -331,7 +335,8 @@ ul input {
 }
 
 .code-block > p {
-  background-color: #FCB305;
+  background-color: #fcb305;
+  color: #000000;
   border-radius: 0.25em;
   user-select: all;
   text-align: center;
@@ -355,13 +360,13 @@ footer {
   height: 3rem;
   padding: 0.25rem 1rem;
   margin: 3rem 0 0 0;
-  background-color: #2864FF;
+  background-color: #2864ff;
 }
 
 footer > p {
   font-size: 0.7rem;
   line-height: 0.8rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 footer > p > span {
@@ -395,7 +400,7 @@ footer > p > span {
 o9con Web Font
 Version: 1.0
 Author: Atul Meshram
-Date: 11-MAY-2020
+Date: 10-November-2020
 -------------------------------- */
 @font-face {
   font-family: "o9con";
@@ -505,7 +510,8 @@ Date: 11-MAY-2020
   color: inherit;
 }
 
-.o9con-bg-sqr, .o9con-bg-sqr-smooth,
+.o9con-bg-sqr,
+.o9con-bg-sqr-smooth,
 .o9con-bg-cir {
   padding: 0.33em;
 }
@@ -3888,6 +3894,14 @@ Date: 11-MAY-2020
 
 .o9con-airport-tower::before {
   content: "\ed1f";
+}
+
+.o9con-legend::before {
+  content: "\ed22";
+}
+
+.o9con-edge::before {
+  content: "\ed23";
 }
 
 .o9con-edit::before {
